@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ِAssignment-10-login-system</title>
+</head>
+<body>
+    <div class="content">
+        <div class="container">
+            <div class="card mt-5 p-3 center">
+                <h2>Smart Login System</h2>
+                <form id="form-sign" class="center w-100">
+                    <input type="text" name="Name" id="name" placeholder="Enter Your Name" class="w-75 text-black-50 p-2">
+                    <div id="name-warring" class="alert alert-warning p-1 w-75 d-none">Your name Should First letter Upper & don't contain any special chars and numbers</div>
+                    <input type="email" name="E-mail" id="mail" placeholder="Enter Your E-mail" class="w-75 text-black-50 p-2">
+                    <div id="mail-warring" class="alert alert-warning p-1 w-75 d-none">Your mail is invalid</div>
+                    <div id="mail-exist" class="alert alert-warning p-1 w-75 d-none">Your Email Is Exist</div>
+                    <input type="password" name="Password" id="password" placeholder="Enter Your Password" class="w-75 text-black-50 p-2">
+                    <div id="pass-warring" class="alert alert-warning p-1 w-75 d-none">Your password should at least 8 characters and contain one number and one letter</div>
+                    <div id="sign-alert" class="alert alert-danger p-1 w-75 d-none">All Inputs Is Required</div>
+                    <div id="success-alert" class="alert alert-success p-1 w-75 d-none">Your Sign-in Success</div>
+                    <a href="" id="btn-sign" class="btn btn-main rounded-pill">Signin</a>
+                </form>
+                <p>have An Account? <a href="index.html" class="link">Login</a></p>
+            </div>
+            <div class="output center m-5">
+                <p id="home" class="pt-5 text-black-50 fs-3 fw-bold"></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
